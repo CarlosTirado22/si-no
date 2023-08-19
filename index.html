@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="img/love.jpg" />
+    <title>Love</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="flor">
+        <img class="img" src="img/flor.jpg" alt="rosa" />
+      </div>
+      <div class="text">
+        <div class="cont">
+          <div class="h1">
+            <h1>¿quisiera usted comer unas hamburguesitas conmigo?</h1>
+            <img class="sticker" src="img/sticker.jpg" alt="" />
+          </div>
+          <div class="botones">
+            <button id="btnSi" onclick="QueSi()" type="button" class="btn btn-outline-dark">
+              <h4>Obvio bobis &#128563;</h4>
+            </button>
+            <button id="btnNo" onmouseover="mueveElBoton()" type="button" class="btn btn-outline-dark">
+              <h4>no &#128532;</h4>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffb5e8;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor {
+  margin: 20px auto;
+  padding: 15px;
+  position: relative;
+}
+
+.flor {
+  border: 1px solid #6c4675;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.text {
+  border-radius: 10%;
+  width: 600px;
+  min-height: 400px;
+  background-color: #fbe4ff;
+  margin-top: -200px;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+.cont {
+  margin: 20px auto;
+  padding: 15px;
+  display: flex;
+}
+
+.h1 {
+  margin: 10px;
+  padding: 15px;
+  margin-top: 80px;
+}
+
+.sticker {
+  margin: 10px auto;
+  width: 100px;
+  margin-left: 10em;
+  /* margin: 10px auto;
+  width: 100px;
+  margin-left: 10em;
+  margin-top: 1em; */
+}
+
+.botones {
+  position: absolute;
+  margin-left: 6em;
+  margin-top: 15em;
+}
+
+button {
+  margin: 10px;
+}
+
+@media (max-width: 991.98px) {
+  .contenedor {
+    margin: 150px auto;
+    width: 100%;
+  }
+
+  .flor {
+    width: 800px;
+    height: 800px;
+  }
+
+  .img {
+    width: 800px;
+    height: 800px;
+  }
+
+  .text {
+    width: 900px;
+    height: 500px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .sticker {
+    width: 190px;
+    margin-left: 18em;
+    margin-top: -0.1em;
+  }
+
+  .botones {
+    margin-left: 15em;
+    margin-top: 20em;
+  }
+
+  button {
+    width: 100px;
+    height: 50px;
+  }
+
+  .btn {
+    width: 12em;
+  }
+}

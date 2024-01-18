@@ -36,7 +36,7 @@ body {
 .text {
   border-radius: 10%;
   width: 600px;
-  min-height: 400px;
+  min-height: 500px;
   background-color: #fbe4ff;
   margin-top: -200px;
   margin: 0 auto;
@@ -68,7 +68,7 @@ body {
 .botones {
   position: absolute;
   margin-left: 6em;
-  margin-top: 15em;
+  margin-top: 20em;
 }
 
 button {
